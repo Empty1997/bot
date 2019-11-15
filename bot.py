@@ -2,7 +2,7 @@ import telebot
 import random
 from telebot.types import  Message
 
-TOKEN = "987421062:AAFVAT7C88Kt5GXsA8timpjl9dVkWdFvj5I"
+
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -18,6 +18,7 @@ def echo_digits(message: Message):
 	if 'ppp' in message.text:
 		bot.reply_to(message, 'hi')
 		return
+
 	bot.reply_to(message, str(random.random()))
 
 
