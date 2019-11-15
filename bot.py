@@ -1,7 +1,9 @@
 import telebot
 import random
 from telebot.types import  Message
-
+TOKEN = "987421062:AAFVAT7C88Kt5GXsA8timpjl9dVkWdFvj5I"
+Use this token to access the HTTP API:
+"
 
 
 bot = telebot.TeleBot(TOKEN)
